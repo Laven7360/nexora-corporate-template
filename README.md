@@ -2,6 +2,10 @@
 
 A fictional Malaysian B2B technology company portfolio template built with React, Vite, React Router and custom CSS.
 
+## Live Demo
+
+[View Live Demo](https://nexora-corporate-template.vercel.app/)
+
 ## Commands
 
 - `npm install` installs dependencies.
@@ -14,7 +18,7 @@ On Windows PowerShell with script execution disabled, use `npm.cmd` in place of 
 
 ## Current scope
 
-The homepage is complete: approved hero, metrics, company preview, services, reasons to choose Nexora, industries, illustrative projects, demo testimonials and final consultation CTA. Shared navigation, footer and the approved visual identity are preserved. About, Services, Projects and Contact remain page-name placeholders.
+The website includes complete Home, About, Services, Projects and Contact pages, with shared navigation and footer, responsive layouts, light and dark themes, page transitions, scroll-reveal effects and a consistent corporate visual identity.
 
 ## Structure
 
@@ -23,7 +27,7 @@ The homepage is complete: approved hero, metrics, company preview, services, rea
 - `src/data/home.js`: editable metrics, services, reasons, industries, projects, testimonials and safe WhatsApp placeholder configuration.
 - `src/data/navigation.js`: navigation and service labels.
 - `src/layouts/MainLayout.jsx`: shared shell, route focus and scroll handling.
-- `src/pages`: complete Home page and four placeholder pages.
+- `src/pages`: complete Home, About, Services, Projects and Contact pages.
 - `src/index.css`: design tokens, global styles, component styles and responsive rules.
 - `src/assets`: reserved for future assets.
 
